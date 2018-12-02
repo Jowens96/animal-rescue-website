@@ -1,0 +1,22 @@
+main {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.blue-box {
+  background-color: #003fff;
+}
+
+h1, li, a {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+}
+
+.btn {
+  background-color: #F16F53;
+  border-style: none;
+}
+
+a {
+    text-decoration: none;
+}
