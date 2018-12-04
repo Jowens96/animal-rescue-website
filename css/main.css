@@ -20,3 +20,45 @@ h1, li, a {
 a {
     text-decoration: none;
 }
+
+/* .chewy-img {
+  position: absolute;
+  left: 0;
+} */
+
+.chewy {
+  background-image: url("../images/chewy.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 25em) {
+  .chewy {
+    background-image: url("../images/chewy.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+  }
+
+  .nav-box {
+    position: fixed;
+   top: 0;
+   width: 100%;
+  }
+
+@media only screen and (min-width: 60em) {
+  .chewy {
+    background-image: url("../images/chewy.jpg");
+    background-position: right center;
+    background-size: cover;
+    width: 40vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+
+}
