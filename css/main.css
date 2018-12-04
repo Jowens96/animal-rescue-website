@@ -15,6 +15,7 @@ h1, li, a {
 .btn {
   background-color: #F16F53;
   border-style: none;
+  border-radius: 15px;
 }
 
 a {
@@ -51,8 +52,12 @@ a {
     position: absolute;
     right: 0;
     top: 100%;
-    /* width: 10em; */
+    background-color: rgba(15, 64, 172, 0.75);
+    width: 100%;
+  }
 
+  .nav li:hover {
+    background-color: #F16F53;
   }
 
   .nav-check {
@@ -69,8 +74,8 @@ a {
     width: 40px;
     display: inline-block;
     position: absolute;
-    right: -4em;
-    bottom: 5.2em;
+    right: 2em;
+    top: 1.6em;
   }
 
   .nav-label img {
@@ -80,6 +85,8 @@ a {
 
   .nav-check:checked ~ .nav-label {
     background-color: #0029a7;
+    padding: 3px;
+    border-radius: 3px;
   }
 
   .name {
