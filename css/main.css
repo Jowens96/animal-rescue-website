@@ -41,17 +41,45 @@ a {
   }
 
   .nav-box {
-    position: fixed;
+    position: relative;
     top: 0;
     xwidth: 100%;
   }
 
   .nav {
     display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    /* width: 10em; */
+
+  }
+
+  .nav-check {
+    position: absolute;
+    top: -3em;
   }
 
   .nav-check:checked ~ .nav {
   display: block;
+  }
+
+  .nav-label {
+    cursor: pointer;
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    right: -4em;
+    bottom: 5.2em;
+  }
+
+  .nav-label img {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-check:checked ~ .nav-label {
+    background-color: #0029a7;
   }
 
   .name {
