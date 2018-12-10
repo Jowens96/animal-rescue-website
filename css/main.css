@@ -101,6 +101,34 @@ a {
 
   @media only screen and (min-width: 38em) {
 
+    /* .nav-label {
+      cursor: pointer;
+      width: 40px;
+      display: inline-block;
+      position: absolute;
+      right: -14em;
+      top: 2.4em;
+    } */
+
+    .nav-label {
+    display: none;
+  }
+
+    .nav-label img {
+      display: none;
+    }
+
+    .nav {
+      display: block;
+      background-color: rgba(15, 64, 172, 0.75);
+      width: 100%;
+      text-align: center;
+      padding: .5em;
+    }
+
+    .nav li {
+      display: inline;
+    }
 
   }
 
