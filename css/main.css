@@ -29,6 +29,13 @@ a {
   width: 100vw;
   height: 80vh;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.chewy-btn {
+  position: absolute;
+  top: 80%;
+  left: 10%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -91,6 +98,15 @@ a {
 
   .name {
     width: 11em;
+  }
+
+  @media only screen and (min-width: 38em) {
+    .nav-label {
+      position: absolute;
+      right: -14em;
+      top: 2.3em;
+    }
+
   }
 
   @media only screen and (min-width: 60em) {
