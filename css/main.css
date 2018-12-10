@@ -56,7 +56,6 @@ a {
 
   .nav {
     display: none;
-    position: absolute;
     right: 0;
     top: 100%;
     background-color: rgba(15, 64, 172, 0.75);
@@ -101,11 +100,7 @@ a {
   }
 
   @media only screen and (min-width: 38em) {
-    .nav-label {
-      position: absolute;
-      right: -14em;
-      top: 2.3em;
-    }
+
 
   }
 
