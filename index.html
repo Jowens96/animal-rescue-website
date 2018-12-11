@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>The Arnprior & District Humane Society</title>
+  <link href="favicon.ico" rel="shortcut icon">
+  <link rel="icon" type="image/png" href="/favicon-196.png">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -12,17 +14,22 @@
 </head>
 <body class="blue-box">
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   <main>
 
-    <div class="grid">
+    <div class="grid dat-grid">
       <div class="unit xs-1 s-1">
 
-        <header>
+        <header role="banner">
 
           <div class="blue-box nav-box w-1">
-            <li class="unit m-2-5 nina name gutter-2 pad-t pad-b">Arnprior & District Humane Society</li>
+            <h1 class="unit m-2-5 nina name gutter-2 pad-t pad-b">Arnprior & District Humane Society</h1>
 
-            <nav>
+            <nav role="navigation" id="nav">
               <input type="checkbox" class="nav-check" id="nav-check">
               <label class="nav-label" for="nav-check">
                 <img src="images/nav-icon.svg" alt="Open Navigation">
@@ -38,28 +45,25 @@
         </header>
       </div>
 
-
-      <div class="chewy unit xs-1 s-1 m-1-2 l-1-2 unit-content-center-horizontal">
-        <button class="btn island-1-2 zetta chewy-btn" type="button" name="button"><a href="rescues.html">Meet Chewy</a></button>
+      <div class="chewy unit xs-1 s-1 m-1-2 l-1-2 unit-content-center-horizontal unit-content-center embed embed-item embed-16by9">
+        <a class="btn island-1-2 giga chewy-btn" href="rescues.html">Meet Chewy</a>
       </div>
 
+      <section class="unit s-1 m-1 l-1-2" role="main" id="main">
+        <div class="title gutter-2 push pad-t">
+          <h2 class="exa push">Our mandate is to rescue lost, stray or abandoned pet animals.</h2>
+        </div>
 
-    <body>
-      <section class="unit s-1 m-1 l-1-2">
-        <div class="title gutter-2 push">
-          <h2 class="zetta pad-t push">Our mandate is to rescue lost, stray or abandoned pet animals.</h1>
-          </div>
+        <div class="home-text gutter-2 push">
+          <p class="tera">The Arnprior & District Humane Society is a no-kill shelter that takes in animals from Arnprior and the surrounding area. We are a non-profit organization supported through fundraising events, sponsor assistance, and kind donations. We are dedicated to finding loving, forever homes for abused, abandoned and neglected animals.</p>
+        </div>
 
-          <div class="home-text gutter-2 push">
-            <p class="giga">The Arnprior & District Humane Society is a no-kill shelter that takes in animals from Arnprior and the surrounding area. We are a non-profit organization supported through fundraising events, sponsor assistance, and kind donations. We are dedicated to finding loving, forever homes for abused, abandoned and neglected animals.</p>
-          </div>
+        <div class="button1 gutter-2 pad-b-2">
+          <a class="btn island-1-2 giga" href="rescues.html">View Our Rescues</a>
+        </div>
 
-          <div class="button1 gutter-2 pad-b-2">
-            <button class="btn island-1-2 zetta" type="button" name="button"><a href="rescues.html">View Our Rescues</a></button>
-          </div>
-        </section>
-      </body>
-
+        <footer class="milli text-center" role="contentinfo">Arnprior & District Humane Society 2018</footer>
+      </section>
 
     </div>
   </main>
