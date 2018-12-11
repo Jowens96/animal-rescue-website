@@ -40,6 +40,37 @@ a {
   position: relative;
 }
 
+.solo {
+  background-image: url("../images/solo.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.spooky {
+  background-image: url("../images/spooky.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.alfred {
+  background-image: url("../images/alfred.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
 .chewy-btn {
   position: absolute;
   top: 80%;
@@ -54,6 +85,33 @@ footer {
 
   .chewy {
     background-image: url("../images/chewy.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+  }
+
+  .solo {
+    background-image: url("../images/solo.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+  }
+
+  .spooky {
+    background-image: url("../images/spooky.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+  }
+
+  .alfred {
+    background-image: url("../images/alfred.jpg");
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -123,6 +181,33 @@ footer {
 
   .chewy {
     background-image: url("../images/chewy.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+  }
+
+  .solo {
+    background-image: url("../images/solo.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+  }
+
+  .spooky {
+    background-image: url("../images/spooky.jpg");
+    background-position: right;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+  }
+
+  .alfred {
+    background-image: url("../images/alfred.jpg");
     background-position: center;
     background-size: cover;
     width: 100vw;
