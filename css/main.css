@@ -1,4 +1,4 @@
-main, label {
+main, label, footer {
   font-family: "Open Sans", sans-serif;
   color: #fff;
 }
@@ -113,6 +113,7 @@ footer {
     background-repeat: no-repeat;
   }
 
+
   .alfred {
     background-image: url("../images/alfred.jpg");
     background-position: center;
@@ -150,10 +151,10 @@ footer {
 
   .nav-label {
     cursor: pointer;
-    width: 35px;
+    width: 30px;
     display: inline-block;
     position: absolute;
-    right: 2em;
+    right: 1em;
     top: 1.6em;
   }
 
@@ -175,7 +176,7 @@ footer {
   .chewy-btn {
     position: absolute;
     top: 80%;
-    left: 10%;
+    left: 30%;
   }
 
 }
@@ -260,6 +261,12 @@ footer {
     width: 11em;
   }
 
+  .chewy-btn {
+    position: absolute;
+    top: 84%;
+    left: 33%;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -306,6 +313,7 @@ footer {
     display: inline;
     position: absolute;
     top: 1em;
+    right: 1em;
     background-color: transparent;
     text-align: right;
   }
@@ -327,13 +335,34 @@ footer {
   .chewy-btn {
     position: absolute;
     top: 90%;
-    left: 39%;
+    left: 32%;
   }
 
   .text {
     position: absolute;
     width: 40vw;
     right: 2em;
+    top: 10em;
+  }
+
+}
+
+@media only screen and (min-width: 156em) {
+
+  .nav {
+    display: inline;
+    position: absolute;
+    top: 1em;
+    right: 4em;
+    background-color: transparent;
+    text-align: right;
+  }
+
+  .text {
+    position: absolute;
+    width: 40vw;
+    right: 6em;
+    top: 10em;
   }
 
 }
