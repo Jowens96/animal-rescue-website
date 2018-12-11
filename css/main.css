@@ -297,18 +297,17 @@ footer {
   .chewy {
     background-image: url("../images/chewy.jpg");
     background-position: center;
-    /* background-size: cover;
-    width: 70vw;
-    height: 125vh; */
+    background-size: cover;
+    width: 50vw;
     background-repeat: no-repeat;
   }
 
   .nav {
     display: inline;
     position: absolute;
-    left: 10em;
     top: 1em;
     background-color: transparent;
+    text-align: right;
   }
 
   .blue-box {
@@ -331,17 +330,10 @@ footer {
     left: 39%;
   }
 
-}
-
-@media only screen and (min-width: 60em) {
-
-  .chewy {
-    background-image: url("../images/chewy.jpg");
-    background-position: center;
-    background-size: cover;
-    width: 60vw;
-    /* height: 125vh; */
-    background-repeat: no-repeat;
+  .text {
+    position: absolute;
+    width: 40vw;
+    right: 2em;
   }
 
 }
