@@ -1,5 +1,5 @@
 main {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 
@@ -8,7 +8,7 @@ main {
 }
 
 h1, li, a {
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #fff;
 }
 
@@ -70,7 +70,7 @@ footer {
     display: none;
     right: 0;
     top: 100%;
-    background-color: rgba(15, 64, 172, 0.75);
+    background-color: rgba(15, 64, 172, .75);
     width: 100%;
   }
 
@@ -84,7 +84,7 @@ footer {
   }
 
   .nav-check:checked ~ .nav {
-  display: block;
+    display: block;
   }
 
   .nav-label {
@@ -139,7 +139,7 @@ footer {
     display: none;
     right: 0;
     top: 100%;
-    background-color: rgba(15, 64, 172, 0.75);
+    background-color: rgba(15, 64, 172, .75);
     width: 100%;
   }
 
@@ -194,7 +194,7 @@ footer {
 
   .nav {
     display: block;
-    background-color: rgba(15, 64, 172, 0.75);
+    background-color: rgba(15, 64, 172, .75);
     width: 100%;
     text-align: center;
     padding: .5em;
@@ -224,27 +224,19 @@ footer {
   }
 
   .nav {
-    background-color: #003fff;
     display: inline;
-  }
-
-  .blue-box {
-    position: relative;
-  }
-
-  .nav {
     position: absolute;
     left: 25em;
     top: 1em;
     background-color: transparent;
   }
 
-  ul {
-    display: none;
+  .blue-box {
+    position: relative;
   }
 
-  dat-grid {
-    position: relative;
+  ul {
+    display: none;
   }
 
   section {
