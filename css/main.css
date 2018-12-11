@@ -12,10 +12,18 @@ h1, li, a {
   color: #fff;
 }
 
+nav li a:hover {
+  background-color: #a42f15;
+}
+
 .btn {
-  background-color: #F16F53;
+  background-color: #e34a29;
   border-style: none;
   border-radius: 15px;
+}
+
+.btn:hover {
+  background-color: #a42f15;
 }
 
 a {
@@ -43,6 +51,7 @@ footer {
 }
 
 @media only screen and (min-width: 20em) {
+
   .chewy {
     background-image: url("../images/chewy.jpg");
     background-position: center;
@@ -55,7 +64,6 @@ footer {
   .nav-box {
     position: relative;
     top: 0;
-    xwidth: 100%;
   }
 
   .nav {
@@ -67,7 +75,7 @@ footer {
   }
 
   .nav li:hover {
-    background-color: #F16F53;
+    background-color: #e34a29;
   }
 
   .nav-check {
@@ -109,7 +117,10 @@ footer {
     left: 10%;
   }
 
+}
+
 @media only screen and (min-width: 25em) {
+
   .chewy {
     background-image: url("../images/chewy.jpg");
     background-position: center;
@@ -122,7 +133,6 @@ footer {
   .nav-box {
     position: relative;
     top: 0;
-    xwidth: 100%;
   }
 
   .nav {
@@ -134,7 +144,7 @@ footer {
   }
 
   .nav li:hover {
-    background-color: #F16F53;
+    background-color: #e34a29;
   }
 
   .nav-check {
@@ -143,7 +153,7 @@ footer {
   }
 
   .nav-check:checked ~ .nav {
-  display: block;
+    display: block;
   }
 
   .nav-label {
@@ -170,45 +180,48 @@ footer {
     width: 11em;
   }
 
-  @media only screen and (min-width: 38em) {
+}
 
-    .nav-label {
+@media only screen and (min-width: 38em) {
+
+  .nav-label {
     display: none;
   }
 
-    .nav-label img {
-      display: none;
-    }
-
-    .nav {
-      display: block;
-      background-color: rgba(15, 64, 172, 0.75);
-      width: 100%;
-      text-align: center;
-      padding: .5em;
-    }
-
-    .nav li {
-      display: inline;
-    }
-
-    .chewy-btn {
-      position: absolute;
-      top: 80%;
-      left: 10%;
-    }
-
+  .nav-label img {
+    display: none;
   }
 
-  @media only screen and (min-width: 60em) {
-    .chewy {
-      background-image: url("../images/chewy.jpg");
-      background-position: center;
-      background-size: cover;
-      width: 70vw;
-      height: 125vh;
-      background-repeat: no-repeat;
-    }
+  .nav {
+    display: block;
+    background-color: rgba(15, 64, 172, 0.75);
+    width: 100%;
+    text-align: center;
+    padding: .5em;
+  }
+
+  .nav li {
+    display: inline;
+  }
+
+  .chewy-btn {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .chewy {
+    background-image: url("../images/chewy.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 70vw;
+    height: 125vh;
+    background-repeat: no-repeat;
+  }
 
   .nav {
     background-color: #003fff;
@@ -228,7 +241,6 @@ footer {
 
   ul {
     display: none;
-    background-color: none;
   }
 
   dat-grid {
@@ -246,6 +258,7 @@ footer {
     top: 90%;
     left: 39%;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
