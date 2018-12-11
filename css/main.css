@@ -186,8 +186,6 @@ footer {
     background-image: url("../images/chewy.jpg");
     background-position: center;
     background-size: cover;
-    width: 100vw;
-    height: 50vh;
     background-repeat: no-repeat;
   }
 
@@ -195,8 +193,6 @@ footer {
     background-image: url("../images/solo.jpg");
     background-position: center;
     background-size: cover;
-    width: 100vw;
-    height: 50vh;
     background-repeat: no-repeat;
   }
 
@@ -204,8 +200,6 @@ footer {
     background-image: url("../images/spooky.jpg");
     background-position: right;
     background-size: cover;
-    width: 100vw;
-    height: 50vh;
     background-repeat: no-repeat;
   }
 
@@ -213,8 +207,6 @@ footer {
     background-image: url("../images/alfred.jpg");
     background-position: center;
     background-size: cover;
-    width: 100vw;
-    height: 50vh;
     background-repeat: no-repeat;
   }
 
@@ -305,16 +297,16 @@ footer {
   .chewy {
     background-image: url("../images/chewy.jpg");
     background-position: center;
-    background-size: cover;
+    /* background-size: cover;
     width: 70vw;
-    height: 125vh;
+    height: 125vh; */
     background-repeat: no-repeat;
   }
 
   .nav {
     display: inline;
     position: absolute;
-    left: 25em;
+    left: 10em;
     top: 1em;
     background-color: transparent;
   }
@@ -348,15 +340,8 @@ footer {
     background-position: center;
     background-size: cover;
     width: 60vw;
-    height: 125vh;
+    /* height: 125vh; */
     background-repeat: no-repeat;
-  }
-
-  .nav {
-    position: absolute;
-    left: 55em;
-    top: 1em;
-    background-color: transparent;
   }
 
 }
