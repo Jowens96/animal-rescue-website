@@ -7,7 +7,7 @@ main, label, footer {
   background-color: #003fff;
 }
 
-h1, li, a, button {
+h1, h2, li, a, button, legend {
   font-family: Quicksand, sans-serif;
   color: #fff;
 }
