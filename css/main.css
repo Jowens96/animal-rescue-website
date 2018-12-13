@@ -80,6 +80,10 @@ fieldset legend {
   left: 10%;
 }
 
+.hide-this {
+  display: none;
+}
+
 footer {
   color: #fff;
 }
@@ -164,7 +168,6 @@ footer {
 
   .nav-check:checked ~ .nav-label {
     background-color: #0029a7;
-    padding: 3px;
     border-radius: 3px;
   }
 
@@ -252,7 +255,6 @@ footer {
 
   .nav-check:checked ~ .nav-label {
     background-color: #0029a7;
-    padding: 3px;
     border-radius: 3px;
   }
 
@@ -283,7 +285,6 @@ footer {
     background-color: rgba(15, 64, 172, .75);
     width: 100%;
     text-align: center;
-    padding: .5em;
   }
 
   .nav li {
