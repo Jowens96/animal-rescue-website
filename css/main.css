@@ -1,6 +1,10 @@
-main, label, footer {
+main, footer {
   font-family: "Open Sans", sans-serif;
   color: #fff;
+}
+
+div input {
+  color: #000;
 }
 
 .blue-box {
@@ -28,10 +32,6 @@ nav li a:hover {
 
 a {
   text-decoration: none;
-}
-
-fieldset legend {
-  color: #fff;
 }
 
 .chewy {

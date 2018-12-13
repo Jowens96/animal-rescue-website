@@ -527,16 +527,6 @@ ol > li::before {
  */
 
 button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  font: inherit;
-  margin: 0;
-}
-
-button,
 input {
   overflow: visible;
 }
